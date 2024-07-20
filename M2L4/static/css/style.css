@@ -1,0 +1,42 @@
+body {
+    background-color:black;
+}
+
+
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+  
+    14% {
+      color: orange;
+    }
+  
+    38% {
+      color: yellow;
+    }
+
+    52% {
+        color: green;
+    }
+
+    64% {
+        color: #42aaff;
+    }
+    
+    78% {
+        color: blue;
+    }
+
+    92% {
+        color: purple;
+    }
+
+    100% {
+        color: violet;
+    }
+}
+
+h1:hover {
+    animation: color-change 5s infinite;
+}
